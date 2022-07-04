@@ -22,7 +22,7 @@ function App() {
    <Router>
     {/* <Navbar /> */}
     <Routes>
-      <Route path='/distinkt2' element={< HomePage />} />
+      <Route path='/' element={< HomePage />} />
       <Route path='/distinkt2/services' element={<Services />} />
       <Route path='/distinkt2/about-us' element={<AboutUs/>} />
       <Route path='/distinkt2/sign-up' element={<SignUp/>} />
