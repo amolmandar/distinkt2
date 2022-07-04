@@ -34,9 +34,7 @@ function App() {
       <Route path='/distinkt2/sporting-events' element={<SportingEvents />} />
       <Route path='/distinkt2/vip-events' element={<VipEvents />} />
       <Route path='/distinkt2/event-management' element={<EventManagement />} />
-
-
-      
+  
     </Routes>
     <Footer />
   </Router>
