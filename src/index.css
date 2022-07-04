@@ -5,9 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background: url('/Users/apple/distinkt/distinkt-website/public/HomePageIMG/david-marcu-78A265wPiO4-unsplash.jpg') center/cover ; */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* .bmg{
+  background-image: url('/Users/apple/distinkt/distinkt-website/public/HomePageIMG/david-marcu-78A265wPiO4-unsplash.jpg') center/cover ;
+} */
+

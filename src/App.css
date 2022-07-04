@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.xtra-class1{
+  font-size: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.xtra-class2{
+  font-size: 20px;
+  padding-bottom: 60px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.xtra-class3{
+  font-size: 20px;
+  /* padding-bottom: 60px; */
+}
+
+.event-mgmt{
+background-color: yellow;
+}
+
+.home,
+.services,
+.sign-up {
   display: flex;
-  flex-direction: column;
+  height: 90vh;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 3rem;
 }
 
-.App-link {
-  color: #61dafb;
+.services {
+  /* background-image: url('../public/HomePageIMG/jack-anstey-XVoyX7l9ocY-unsplash.jpg') imp; */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about-para{
+  font-size: 40px;
+  color:maroon;
+  padding-left: 50px;
+  padding-right: 50px;
+  /* font-family: 'Luxurious Script', cursive; */
+}
+
+.about-us {
+  display: flex;
+  height: 110vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  background-image: url('/Users/apple/distinkt/distinkt-website/public/HomePageIMG/Screenshot 2022-06-16 at 7.05.38 PM.png');
+  background-position: center;
+  background-size: fill;
+  /* background-repeat: no-repeat; */
+  /* color: black; */
+  
+}
+
+.card-container{
+    background-color: chocolate;
+  /* background-image: url('../public/HomePageIMG/jack-anstey-XVoyX7l9ocY-unsplash.jpg'); */
+}
+
+.sign-up {
+  /*background-image: url('/images/img-8.jpg');*/
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
 }
