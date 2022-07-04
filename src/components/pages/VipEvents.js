@@ -5,7 +5,7 @@ import '../../App.css'
 const VipEvents = () => {
   return (
     <HorizontalCard 
-    src='/HomePageIMG/Vip Events /michael-lee-5Z9bgfRZLLE-unsplash.jpg'
+    src='/distinkt2/HomePageIMG/Vip Events /michael-lee-5Z9bgfRZLLE-unsplash.jpg'
     title='Access to V.I.P Events'
     text1="Cannes? No Problem!
 F1 Races? No Problem!
