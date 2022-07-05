@@ -6,7 +6,7 @@ const TravelManagement = () => {
   return (
     
     <HorizontalCard 
-      src='/HomePageIMG/kalen-emsley-kGSapVfg8Kw-unsplash.jpg'
+      src='/distinkt2/HomePageIMG/kalen-emsley-kGSapVfg8Kw-unsplash.jpg'
       title='Travel Managementt'
       text1="Distinkt Is Fully IATA Accredited! Yes! We have a GDS to ourselves which is manned 24/7 by our Travel Consultants! Possibly one of the few companies in this space to have a full IATA Accreditation!
             Travel is the most used service in the concierge domain! Having your own GDS means, Access to Best Fares To Hotels, Airlines & Railways Across the Globe! No more waiting on call centre cues, No more hunting for best deals, No more paying high convenience fees! We've covered it all!"
