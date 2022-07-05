@@ -126,7 +126,7 @@ const Footer = () => {
   {/* <!-- Copyright --> */}
   <div className="text-center p-4 copyright-class">
     © 2022 Copyright:
-    <a className="text-reset fw-bold" href="/">https://www.distinkt.com</a>
+    <a className="text-reset fw-bold" href="/distinkt2">https://www.distinkt.com</a>
   </div>
   {/* <!-- Copyright --> */}
 </footer>
