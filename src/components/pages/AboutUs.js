@@ -23,7 +23,7 @@ function AboutUs() {
     //             </div>
     <>
   <div className="card about-card"> {/* style={`width: 18rem;`} */}
-  <img src="/distinkt2/HomePageIMG/About Us/avatar-3127928.jpg" className="card-img-top" alt="..." />
+  <img src="/HomePageIMG/About Us/avatar-3127928.jpg" className="card-img-top" alt="..." />
   <div className="card-body">
     <h1 className="card-title text-center h1-about">About Us</h1>
     <p className="card-text about-xtra">Distinkt is a BeSpoke Luxury Concierge Service with a focus to provide & deliver quality service with customer dedication! We believe in a 1 to 1 relationship, understanding & delivering exactly what has been requested! Distinkt was formed when most competitors went commercial in the name of BeSpoke & Dedicated, operating more like a contact centre!</p>
