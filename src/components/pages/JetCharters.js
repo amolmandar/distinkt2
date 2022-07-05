@@ -5,7 +5,7 @@ import '../../App.css'
 const JetCharters = () => {
   return (
     <HorizontalCard 
-    src='/distinkt2/HomePageIMG/Private Jet /yuri-g-Qhy9A3NQZAE-unsplash.jpg'
+    src='/HomePageIMG/Private Jet /yuri-g-Qhy9A3NQZAE-unsplash.jpg'
     title='Jet Charters'
     text1="Jet Charter travel provides a safer way to fly by minimising UHNWI’s exposure to health & security risks! UHNWI’s flying via commercial airlines go through almost 600+ touchpoint every flight; compared to private jet travellers who only encounter 20 touchpoint, as per an analysis done by GlobeAir AG!"
     text2="In recent times Private Jet Charters have become more cost effective with private flight costs being reduced down by 30% to 50%, bringing the rates closer than ever rates of First & Business Class tickets on Commercial Carriers!"
