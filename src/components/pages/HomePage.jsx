@@ -10,7 +10,7 @@ function HomePage (){
     return (
         <>
         <Home />
-        <Cards />
+        {/* <Cards /> */}
         {/* <Footer /> */}
         </>
     )
