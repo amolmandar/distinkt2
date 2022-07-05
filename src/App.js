@@ -23,8 +23,8 @@ function App() {
     {/* <Navbar /> */}
     <Routes>
       <Route path='/' element={< HomePage />} />
-      <Route path='/distinkt2/services' element={<Services />} />
-      <Route path='/distinkt2/about-us' element={<AboutUs/>} />
+      <Route path='/services' element={<Services />} />
+      <Route path='/about-us' element={<AboutUs/>} />
       {/*<Route path='/sign-up' element={<SignUp/>} />
       <Route path='/travel-management' element={<TravelManagement />} />
       <Route path='/general-management' element={<GeneralManagement />} />
