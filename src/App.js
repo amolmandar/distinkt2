@@ -19,21 +19,21 @@ import Footer from './components/Footer';
 function App() {
   return (
    <>
-   <Router>
+   <Router basename='/distinkt2'>
     {/* <Navbar /> */}
     <Routes>
       <Route path='/' element={< HomePage />} />
-      <Route path='/distinkt2/services' element={<Services />} />
-      <Route path='/distinkt2/about-us' element={<AboutUs/>} />
-      <Route path='/distinkt2/sign-up' element={<SignUp/>} />
-      <Route path='/distinkt2/travel-management' element={<TravelManagement />} />
-      <Route path='/distinkt2/general-management' element={<GeneralManagement />} />
-      <Route path='/distinkt2/jet-charters' element={<JetCharters />} />
-      <Route path='/distinkt2/luxory-concierge' element={<LuxoryConcierge />} />
-      <Route path='/distinkt2/luxory-goods' element={<LuxoryGoods />} />
-      <Route path='/distinkt2/sporting-events' element={<SportingEvents />} />
-      <Route path='/distinkt2/vip-events' element={<VipEvents />} />
-      <Route path='/distinkt2/event-management' element={<EventManagement />} />
+      <Route path='/services' element={<Services />} />
+      <Route path='/about-us' element={<AboutUs/>} />
+      <Route path='/sign-up' element={<SignUp/>} />
+      <Route path='/travel-management' element={<TravelManagement />} />
+      <Route path='/general-management' element={<GeneralManagement />} />
+      <Route path='/jet-charters' element={<JetCharters />} />
+      <Route path='/luxory-concierge' element={<LuxoryConcierge />} />
+      <Route path='/luxory-goods' element={<LuxoryGoods />} />
+      <Route path='/sporting-events' element={<SportingEvents />} />
+      <Route path='/vip-events' element={<VipEvents />} />
+      <Route path='/event-management' element={<EventManagement />} />
   
     </Routes>
     <Footer />
