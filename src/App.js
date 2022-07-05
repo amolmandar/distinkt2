@@ -19,7 +19,7 @@ import Footer from './components/Footer';
 function App() {
   return (
    <>
-   <Router>
+   <Router basename='/distinkt2'>
     {/* <Navbar /> */}
     <Routes>
       <Route path='/' element={< HomePage />} />
