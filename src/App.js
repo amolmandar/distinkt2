@@ -19,7 +19,7 @@ import Footer from './components/Footer';
 function App() {
   return (
    <>
-   <Router basename={process.env.PUBLIC_URL}>
+   <Router basename='/distinkt2'>
     {/* <Navbar /> */}
     <Routes>
       <Route path='/' element={< HomePage />} />
