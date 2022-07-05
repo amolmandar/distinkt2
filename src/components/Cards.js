@@ -16,7 +16,7 @@ function Cards() {
                      <CardItem
                     src="/HomePageIMG/szabolcs-toth-ZHOIR8oLvh0-unsplash.jpg"
                     text="Distinkt Is Fully IATA Accredited! Yes! We have a GDS to ourselves which is manned 24/7 by our Travel Consultants!"
-                    label="Travel Management"
+                    label="Travel Managementt"
                     path="/distinkt2/travel-management" /> 
                     <CardItem
                     src="/HomePageIMG/Screenshot 2022-06-16 at 4.53.40 PM.png"
@@ -53,7 +53,7 @@ function Cards() {
                     label="Event Management"
                     path="/distinkt2/event-management" /> 
                     <CardItem
-                    src="/distinkt2/HomePageIMG/events Management /handshake-2009183.png"
+                    src="/HomePageIMG/events Management /handshake-2009183.png"
                     text="Partnerships, Private Events and Luxury Management ...etc is also on our esteemed service palette."
                     label="General Management and other services"
                     path="/distinkt2/general-management" /> 
