@@ -28,6 +28,7 @@ function AboutUs() {
     <h1 className="card-title text-center h1-about">About Us</h1>
     <p className="card-text about-xtra">Distinkt is a BeSpoke Luxury Concierge Service with a focus to provide & deliver quality service with customer dedication! We believe in a 1 to 1 relationship, understanding & delivering exactly what has been requested! Distinkt was formed when most competitors went commercial in the name of BeSpoke & Dedicated, operating more like a contact centre!</p>
     <p className="card-text about-xtra2"> Considering the situation Distinkt was created with a Vision to deliver Quality & Personalised BeSpoke Concierge Services To The Well Deserved! Distinkt’s Operating values are not driven by its profit’s & is majorly driven by the satisfaction of its clients!</p>
+    {console.log(window.location.herf)}
   </div>
   {/* <ul class="list-group list-group-flush">
     <li class="list-group-item">An item</li>
