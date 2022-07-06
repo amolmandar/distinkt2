@@ -15,6 +15,7 @@ import VipEvents from './components/pages/VipEvents';
 import Services from './components/pages/Services';
 import EventManagement from './components/pages/EventManagement';
 import Footer from './components/Footer';
+import NotFound from './components/pages/NotFound';
 
 function App() {
   return (
@@ -22,9 +23,9 @@ function App() {
    <Router>
     {/* <Navbar /> */}
     <Routes>
-      <Route path='/' element={< HomePage />} />
+      <Route path='/' element={<HomePage />} />
+      <Route path='about-us' element={<AboutUs/>} />
       {/*<Route path='/services' element={<Services />} />
-      <Route path='/about-us' element={<AboutUs/>} />
       <Route path='/sign-up' element={<SignUp/>} />
       <Route path='/travel-management' element={<TravelManagement />} />
       <Route path='/general-management' element={<GeneralManagement />} />
@@ -34,6 +35,8 @@ function App() {
       <Route path='/sporting-events' element={<SportingEvents />} />
       <Route path='/vip-events' element={<VipEvents />} />
       <Route path='/event-management' element={<EventManagement />} /> */}
+
+      <Route path='*' element={<NotFound />} />
   
     </Routes>
     <Footer />
