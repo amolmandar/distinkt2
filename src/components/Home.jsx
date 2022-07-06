@@ -11,7 +11,7 @@ const Home = () => {
         <h1>DISTINKT</h1>
         <p>Luxury awaits you ...</p>
         <div className="home-btns">
-            <Link to='/about-us'><button className='btn--outline'> LEARN MORE raju</button></Link>
+            <Link to='/distinkt2/about-us'><button className='btn--outline'> LEARN MORE raju</button></Link>
             <button className='btn--outline'  > CONTACT US </button>
         </div>
     </div>
