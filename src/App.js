@@ -26,7 +26,7 @@ function App() {
     
       <Route path='/distinkt2' element={<HomePage />} >
         <Route path='/about-us' element={<AboutUs/>} />
-        <Route path='/services' element={<Services />} />
+        {/* <Route path='/services' element={<Services />} />
         <Route path='/sign-up' element={<SignUp/>} />
         <Route path='/travel-management' element={<TravelManagement />} />
         <Route path='/general-management' element={<GeneralManagement />} />
@@ -36,7 +36,7 @@ function App() {
         <Route path='/sporting-events' element={<SportingEvents />} />
         <Route path='/vip-events' element={<VipEvents />} />
         <Route path='/event-management' element={<EventManagement />} />
-        <Route path='*' element={<NotFound />} />
+        <Route path='*' element={<NotFound />} /> */}
       </Route>
       
       {/*<Route path='/services' element={<Services />} />
