@@ -24,7 +24,7 @@ function App() {
     <Navbar />
     <Routes>
       <Route path='/distinkt2' element={<HomePage />} />
-      <Route path='about-us' element={<AboutUs/>} />
+      <Route path='/about-us' element={<AboutUs/>} />
       {/*<Route path='/services' element={<Services />} />
       <Route path='/sign-up' element={<SignUp/>} />
       <Route path='/travel-management' element={<TravelManagement />} />
