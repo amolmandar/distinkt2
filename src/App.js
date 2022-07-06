@@ -23,8 +23,10 @@ function App() {
    <Router>
     <Navbar />
     <Routes>
+    <Route path='/' element={<HomePage />} >
       <Route path='/distinkt2' element={<HomePage />} >
         <Route path='/about-us' element={<AboutUs/>} />
+      </Route>
       </Route>
       {/*<Route path='/services' element={<Services />} />
       <Route path='/sign-up' element={<SignUp/>} />
