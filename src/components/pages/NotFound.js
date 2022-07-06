@@ -5,6 +5,7 @@ const NotFound = () => {
   return (
     <div>
         <p>URL not found.</p>
+        {console.log(window.location.herf)}
     </div>
   )
 }
